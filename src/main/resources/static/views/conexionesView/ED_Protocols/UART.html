@@ -1,0 +1,50 @@
+
+<div class="specific-config">
+    <legend>Configuracion</legend>
+    <label for="port">Puerto:</label>
+    <select name="port" data-uiResource="COMPorts">
+        <option value="null">No hay puertos disponibles!!</option>
+    </select>
+
+    <label for="baud_rate">Baudios:</label>
+    <select name="baud_rate">
+        <option value="B9600">9600</option>
+        <option value="B19200">19200</option>
+    </select>
+
+    <button class="advanced-config-button">Configuración Avanzada</button>
+    <div class="advanced-config" display="none">
+        <label for="parity">Paridad:</label>
+        <select name="parity">
+            <option value="P_NONE">Ninguna</option>
+            <option value="P_EVEN">Par</option>
+            <option value="P_ODD">Non</option>
+            <option value="P_MARK">Marca</option>
+            <option value="P_SPACE">Espacio</option>
+        </select>
+
+        <label for="data_bits">Numero de Bits del Paquete:</label>
+        <select name="data_bits">
+            <option value="DB_8">8 BITS</option>
+            <option value="DB_7">7 BITS</option>
+            <option value="DB_6">6 BITS</option>
+            <option value="DB_5">5 BITS</option>
+        </select>
+
+        <label for="stop_bits">Numero de Bits de Paro:</label>
+        <select name="stop_bits">
+            <option value="SB_1">1 BIT</option>
+            <option value="SB_1_5">1.5 BITS</option>
+            <option value="SB_2">2 BITS</option>
+        </select>
+
+        <label for="flow_control">Control de Flujo:</label>
+        <select name="flow_control">
+            <option value="NONE">Ninguno</option>
+            <option value="XON_XOF">Software</option>
+        </select>
+    </div>
+</div>
+
+
+

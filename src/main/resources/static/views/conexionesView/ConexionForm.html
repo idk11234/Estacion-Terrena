@@ -1,0 +1,41 @@
+<form id="conexion_form">
+    <fieldset>
+        <legend>Nueva Conexion</legend>
+        <div id="config_ED">
+            <fieldset id="config_general">
+                <legend>Conexion Enlace de Datos</legend>
+        
+                <!-- <fieldset>
+                    <legend>Tipo de conexión</legend>
+                    <input type="radio" id="html" name="tipo_conexion" value="inalambrica">
+                    <label for="html">Inalambrica</label><br>
+                    <input type="radio" id="html" name="tipo_conexion" value="alambrica">
+                    <label for="html">Alambrica</label><br>
+                </fieldset> -->
+        
+                <!-- <label for="nombre_conexion">Nombre de Conexión:</label>
+                <input name="nombre_conexion" type="text"> -->
+                    
+                    <label for="protocol">Protocolo de Comunicación:</label>
+                    <select id="select_protocol_ED" name="protocol" required>
+                        <option value="null" selected disabled>Seleccionar protocolo!</option>
+                        <option value="UART">UART</option>
+                        <option value="ETHERNET">Ethernet</option>
+                        <option value="BLUETOOTH">Bluetooth</option>
+                        <option value="WIFI">Wifi</option>
+                    </select>
+                    
+                   
+                    <div id="config_especifica_ED">
+                
+     
+               
+                
+                    </div>
+                    
+            <button type="submit" id="crear_conexion_ED">Sincronizar Enlace de Datos</button>
+            </fieldset>
+        </div>
+        <button id="cancelar_conexion_ED">Cancelar</button>
+    </fieldset>
+</form>

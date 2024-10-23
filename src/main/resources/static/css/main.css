@@ -1,0 +1,219 @@
+/* 
+PROVITIONAL CSS
+NEEDS DECOMPOSITION AND INDIVIDUAL LAYOUTS
+ 
+ */
+
+.mainNavigation{
+    
+    position: fixed;
+    max-height: 5%;
+    height: 5%;
+    min-height: 5%;
+    width:100%;
+    top: 0px; 
+    left: 0;
+    background-color: rgb(249, 247, 247);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display:flex;
+ 
+    box-shadow: 0 4px 2px -2px rgba(93, 93, 93, 0.32);
+    color: #ccc;
+
+    background: #fafafa;
+    background: linear-gradient(#fafafa, #e5e5e5);
+
+    z-index: 1;
+
+    
+}
+
+.mainNavigation nav{
+    margin: 0;
+    display: flex;
+    font-size: .9rem;
+    position: relative;
+    flex:auto;
+
+    border-top: solid 1px #e4e4e3;
+ 
+    background: #fafafa;
+    background: linear-gradient(#fafafa, #e5e5e5);
+
+    
+    
+    
+}
+
+.mainNavigation nav a{
+
+    display: flex;
+    column-gap: 8px;
+    justify-content: center;
+    padding: 5px;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #cecee8;
+    color: #000;
+    text-decoration: none;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    float: left;
+    justify-items: center;
+}
+
+.indicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0606f8;
+}
+
+.logo{
+    width: 20px;
+    background: #b41c11;
+}
+
+.appWindow{
+    position: relative;
+    top:5%;
+    /* background-color: rgba(219, 230, 10, 0.801); */
+    padding: 2px;
+}
+
+.icon{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0 0 0 0;
+    /* background-color: blueviolet; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-image: url("/img/mi_vieja.jpg"); */
+
+    
+}
+
+#dashboard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: #b41c11; */
+    justify-content: space-around;
+}
+
+.variable_display{
+    position: relative;
+    /* background-color: #0606f8; */
+    min-height: 250px;
+    min-width: 350px;
+
+    background: #fffffff5; /* Dark background for better contrast */
+    color: #ffccbc; /* Light text for readability */
+    border: 2px solid #CF7668; /* Red border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 20px 0; /* Outer spacing */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    box-shadow: 0 0 10px #733244; /* Glowing effect */
+    transition: transform 0.2s; /* Smooth transition */
+}
+
+.variable_display:hover {
+    transform: translateY(-4px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    max-width: 800px; /* Increased max width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #d50000; /* Red border */
+    border-radius: 6px;
+    margin: 10px 0; /* Reduced margin */
+    padding: 15px;
+    background-color: #fdfdfd; /* Light background for fieldset */
+}
+
+legend {
+    font-size: 1.3em; /* Slightly larger font size */
+    color: #d50000; /* Red text for legends */
+    padding: 0 10px; /* Spacing around legend */
+}
+
+label {
+    margin-top: 5px; /* Further reduced margin */
+    display: block; /* Makes labels block elements for better spacing */
+    color: #333;
+}
+
+select,
+button {
+    padding: 8px; /* Consistent padding */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px 0; /* Further reduced margin */
+    font-size: 1em;
+    width: calc(100% - 18px); /* Full width with some space */
+}
+
+select:focus {
+    border-color: #d50000; /* Red focus */
+    outline: none;
+}
+
+button {
+    background-color: #d50000; /* Red button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width */
+}
+
+button:hover {
+    background-color: #b00000; /* Darker red on hover */
+}
+
+.advanced-config {
+    display: none; /* Initially hidden */
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fafafa; /* Subtle background color */
+}
+
+.specific-config {
+    margin-top: 10px; /* Reduced margin */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa; /* Subtle background color */
+}
